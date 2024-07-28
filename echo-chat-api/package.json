@@ -1,0 +1,32 @@
+{
+  "name": "echo-chat-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts --fix"
+  },
+  "keywords": [],
+  "author": "João Marcos",
+  "license": "ISC",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.2.2",
+    "@types/bcrypt": "^5.0.2",
+    "@types/node": "^20.12.7",
+    "eslint": "^9.0.0",
+    "tsx": "^4.7.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "@fastify/jwt": "^8.0.0",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.26.2",
+    "fastify-plugin": "^4.5.1",
+    "fastify-socket.io": "^5.0.0",
+    "mongoose": "^8.3.2",
+    "socket.io": "^4.7.5",
+    "zod": "^3.22.4"
+  }
+}
